@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blink-182 France</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top" class="text-white font-poppins bg-bgimg bg-cover">
+    <header class="bg-white z-50 fixed top-0 w-full shadow">
+      <nav
+        id="main-nav"
+        class="bg-white max-w-7xl mx-auto p-6 flex items-center justify-between"
+      >
+        <a href="/src/index.html" class="flex" aria-label="Page d'accueil"
+          ><img
+            src="/src/assets/img/Blink-182-Logo.png"
+            alt=""
+            class="h-10 transition-transform ease-in-out duration-500 hover:scale-110"
+        /></a>
+        <button
+          aria-label="toggle button"
+          aria-expanded="false"
+          id="menu-btn"
+          class="cursor-pointer w-7 md:hidden"
+        >
+          <img src="/src/assets/img/menu.svg" alt="" class="" />
+        </button>
+        <ul
+          id="toggled-menu"
+          class="bg-white w-full absolute top-full left-0 -translate-y-full -z-10 text-black border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
+        >
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/histoire.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Histoire</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/membres.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Membres</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/discographie.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Discographie</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="https://uk.blink182merch.com/"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              target="_blank"
+              >Boutique</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main
+      class="absolute top-28 w-full md:top-28 md:flex md:items-center md:flex-col"
+    >
+      <section class="flex flex-col md:flex-row md:mx-auto">
+        <div
+          class="mx-auto md:mx-0 transition-transform duration-500 ease-in-out hover:scale-105"
+        >
+          <a href="/src/tom.html"><img src="/src/assets/img/tom.png" alt="tom" /></a>
+        </div>
+        <div
+          class="py-2 mx-auto md:mx-0 md:py-0 md:px-2 transition-transform duration-500 ease-in-out hover:scale-105"
+        >
+          <a href="/src/travis.html"><img src="/src/assets/img/travis.png" alt="travis" /></a>
+        </div>
+        <div
+          class="pb-4 mx-auto md:mx-0 md:pb-0 transition-transform duration-500 ease-in-out hover:scale-105"
+        >
+          <a href="/src/mark.html"><img src="/src/assets/img/mark.png" alt="mark" /></a>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex flex-col items-center">
+          <img
+            src="/src/assets/img/one more time.png"
+            alt="one more time"
+            class="pb-2 md:mt-2"
+          />
+          <h2 class="text-black pb-2 text-xl">NOUVEL ALBUM DISPONIBLE</h2>
+          <a href="https://blink182.lnk.to/ONEMORETIME" target="_blank"
+            ><button
+              class="bg-black text-white rounded-md text-2xl w-48 mb-6 transition-transform duration-500 ease-in-out hover:scale-105 hover:text-yellow-400"
+            >
+              ECOUTER MAINTENANT
+            </button></a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script src="/src/nav.js"></script>
+  </body>
+</html>

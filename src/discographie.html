@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blink-182 France</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top" class="text-white font-poppins bg-bgimg bg-cover">
+    <header class="bg-white z-50 fixed top-0 w-full shadow">
+      <nav
+        id="main-nav"
+        class="bg-white max-w-7xl mx-auto p-6 flex items-center justify-between"
+      >
+        <a href="/src/index.html" class="flex" aria-label="Page d'accueil"
+          ><img
+            src="/src/assets/img/Blink-182-Logo.png"
+            alt=""
+            class="h-10 transition-transform ease-in-out duration-500 hover:scale-110"
+        /></a>
+        <button
+          aria-label="toggle button"
+          aria-expanded="false"
+          id="menu-btn"
+          class="cursor-pointer w-7 md:hidden"
+        >
+          <img src="/src/assets/img/menu.svg" alt="" class="" />
+        </button>
+        <ul
+          id="toggled-menu"
+          class="bg-white w-full absolute top-full left-0 -translate-y-full -z-10 text-black border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
+        >
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/histoire.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Histoire</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/membres.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Membres</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/discographie.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Discographie</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="https://uk.blink182merch.com/"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              target="_blank"
+              >Boutique</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main
+      class="absolute top-28 w-full px-12 md:top-32 md:px-16 md:flex md:items-center md:flex-col"
+    >
+      <h1 class="text-black text-center text-2xl font-bold">Discographie</h1>
+      <p class="text-black text-center pt-6 md:text-left">
+        La discographie de Blink-182 comprend l'ensemble des enregistrements de
+        Blink-182, groupe américain de pop punk formé en 1992. Cette
+        discographie contient une douzaine d'albums dont six albums studio, dont
+        ont été extraits une vingtaine de singles. L'album du groupe ayant eu le
+        meilleur succès commercial est Take Off Your Pants and Jacket, sorti en
+        2001, qui se hisse à la première place des classements aux États-Unis,
+        au Canada et en Allemagne, tandis que les chansons du groupe ayant reçu
+        le meilleur accueil sont What's My Age Again?, All the Small Things, The
+        Rock Show, Feeling This et I Miss You.
+      </p>
+      <h2 class="text-black text-center font-semibold pt-5 pb-4 text-xl">Liste des albums</h2>
+      <section class="pb-6 md:flex md:flex-row md:flex-wrap md:justify-evenly md:px-12 md:gap-6">
+      <a href="/src/cheshirecat.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/cat.jpg" alt="Cheshire Cat" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">1994 : Cheshire Cat</p>
+      </div></a>
+      <a href="/src/duderanch.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/duderanch.jpg" alt="Dude Ranch" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">1997 : Dude Ranch</p>
+      </div></a>
+      <a href="/src/enema.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/enema.jpg" alt="Enema of the state" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">1999 : Enema of the State</p>
+      </div></a>
+      <a href="/src/live.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/livealbum.jpg" alt="live album" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">2000 : The Mark, Tom and Travis show</p>
+      </div></a>
+      <a href="/src/toypaj.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/toypaj.jpg" alt="Take off your pants and jacket" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">2001 : Take Off Your Pants And Jacket</p>
+      </div></a>
+      <a href="/src/eponyme.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/eponyme.jpg" alt="blink182" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">2003 : Blink-182</p>
+      </div></a>
+      <a href="/src/hits.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/GreatestHits.jpg" alt="GreatestHits" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">2005 : Greatest Hits</p>
+      </div></a>
+      <a href="/src/neighborhoods.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/Neighborhoods.jpg" alt="Neighborhoods" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">2011 : Neighborhoods</p>
+      </div></a>
+      <a href="/src/california.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/California.jpg" alt="California" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">2016 : California</p>
+      </div></a>
+      <a href="/src/californiadeluxe.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/Californiadeluxe.jpg" alt="California Deluxe" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">2016 : California Deluxe</p>
+      </div></a>
+      <a href="/src/nine.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/nine.jpg" alt="nine" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">2019 : Nine</p>
+      </div></a>
+      <a href="/src/onemoretime.html"><div class="text-center text-black pb-4 md:transition-transform md:ease-in-out md:hover:scale-105 md:duration-500">
+        <img src="/src/assets/img/onemoretime.jpg" alt="one more time" class="mx-auto w-64 md:w-64 rounded-md">
+        <p class="italic md:text-xs">2023 : One More Time...</p>
+      </div></a>
+    </section>
+    </main>
+
+    <script src="/src/nav.js"></script>
+  </body>
+</html>

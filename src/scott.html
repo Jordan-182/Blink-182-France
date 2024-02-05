@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blink-182 France</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top" class="text-white font-poppins bg-bgimg bg-cover">
+    <header class="bg-white z-50 fixed top-0 w-full shadow">
+      <nav
+        id="main-nav"
+        class="bg-white max-w-7xl mx-auto p-6 flex items-center justify-between"
+      >
+        <a href="/src/index.html" class="flex" aria-label="Page d'accueil"
+          ><img
+            src="/src/assets/img/Blink-182-Logo.png"
+            alt=""
+            class="h-10 transition-transform ease-in-out duration-500 hover:scale-110"
+        /></a>
+        <button
+          aria-label="toggle button"
+          aria-expanded="false"
+          id="menu-btn"
+          class="cursor-pointer w-7 md:hidden"
+        >
+          <img src="/src/assets/img/menu.svg" alt="" class="" />
+        </button>
+        <ul
+          id="toggled-menu"
+          class="bg-white w-full absolute top-full left-0 -translate-y-full -z-10 text-black border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
+        >
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/histoire.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Histoire</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/membres.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Membres</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/discographie.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Discographie</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="https://uk.blink182merch.com/"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              target="_blank"
+              >Boutique</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main
+      class="absolute top-28 w-full px-4 md:px-16 md:top-32 md:flex md:items-center md:flex-col"
+    >
+      <div class="md:flex md:flex-row">
+        <div class="text-center text-black md:flex md:flex-col">
+          <img
+            src="/src/assets/img/scott.jpg"
+            alt="Scott Raynor"
+            class="mx-auto rounded-lg mb-4"
+          />
+        </div>
+        <div
+          class="text-center text-black md:flex md:flex-col md:max-w-4xl md:px-12 md:my-auto"
+        >
+          <h2 class="text-center text-black font-semibold text-2xl mb-4">
+            SCOTT RAYNOR
+          </h2>
+          <p class="pb-2">
+            Scott Raynor (né le 23 mai 1978 à Poway, Californie, États-Unis) fut
+            un membre cofondateur du groupe californien de pop-punk Blink-182,
+            jusqu'à son remplacement par Travis Barker lors de la tournée qui
+            suivait le lancement de l'album Dude Ranch. Scott est également
+            passionné pour les batteurs de jazz.
+          </p>
+        </div>
+      </div>
+      <section class="text-black text-center pb-6">
+        <h4 class="mt-2 mb-2 text-xl font-semibold">Ses débuts</h4>
+        <p class="pb-2 md:text-left">
+          Dans son adolescence, il était un véritable fan du groupe Metallica.
+          Il devint batteur lorsqu'il créa son premier groupe de musique avec
+          quelques amis seulement parce qu'ils l'appelaient le "good
+          instruments" ce qui signifie "celui qui a le rythme dans la peau".
+          Tout d'abord passionné par le heavy-metal, il s'orienta
+          progressivement vers le punk, ce qui l'amena rapidement à rejoindre
+          Blink-182.
+        </p>
+        <h4 class="mb-2 mt-1 text-xl font-semibold">
+          Le groupe Blink-182 (1992 à 1997)
+        </h4>
+        <p class="pb-2 md:text-left">
+          En 1992, Scott Raynor et Tom Delonge fondèrent le groupe Blink qui
+          devint plus tard Blink-182. En 1996, alors que la popularité du groupe
+          était croissante, les parents de Scott décidèrent de déménager pour
+          Reno dans le Nevada. Le groupe perdit alors son batteur qui fut
+          remplacé un temps par Mike Krull. Ne parvenant pas à continuer sans
+          son batteur, le groupe fit pression sur les parents de Scott afin que
+          ce dernier vienne emménager dans la famille de Mark. Le groupe fut
+          donc à nouveau réuni quelques mois plus tard et continua sa
+          progression.
+        </p>
+        <h4 class="mb-2 mt-1 text-xl font-semibold">La séparation (1997)</h4>
+        <p class="pb-2 md:text-left">
+          Malheureusement, durant une tournée de l'été 1997, alors que le groupe
+          s'embarque dans une grande tournée, Scott se fait de plus en plus
+          absent et c'est dans la surprise générale des fans que Scott est
+          finalement exclu du groupe entre deux concerts de la tournée.
+        </p>
+        <p class="italic pt-2 md:text-right">Source : Wikipedia</p>
+      </section>
+    </main>
+
+    <script src="/src/nav.js"></script>
+  </body>
+</html>

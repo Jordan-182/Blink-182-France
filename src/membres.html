@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blink-182 France</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top" class="text-white font-poppins bg-bgimg bg-cover">
+    <header class="bg-white z-50 fixed top-0 w-full shadow">
+      <nav
+        id="main-nav"
+        class="bg-white max-w-7xl mx-auto p-6 flex items-center justify-between"
+      >
+        <a href="/src/index.html" class="flex" aria-label="Page d'accueil"
+          ><img
+            src="/src/assets/img/Blink-182-Logo.png"
+            alt=""
+            class="h-10 transition-transform ease-in-out duration-500 hover:scale-110"
+        /></a>
+        <button
+          aria-label="toggle button"
+          aria-expanded="false"
+          id="menu-btn"
+          class="cursor-pointer w-7 md:hidden"
+        >
+          <img src="/src/assets/img/menu.svg" alt="" class="" />
+        </button>
+        <ul
+          id="toggled-menu"
+          class="bg-white w-full absolute top-full left-0 -translate-y-full -z-10 text-black border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
+        >
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/histoire.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Histoire</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/membres.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Membres</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="/src/discographie.html"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              >Discographie</a
+            >
+          </li>
+          <li class="py-4 md:py-0 md:mr-8">
+            <a
+              href="https://uk.blink182merch.com/"
+              class="text-sm font-semibold w-full hover:border-b-2 hover:border-black transition-all duration-100 ease-in-out"
+              target="_blank"
+              >Boutique</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main
+      class="absolute top-28 w-screen md:top-28 md:px-12 md:w-screen md:flex md:flex-col md:flex-wrap md:justify-center md:space-x-8"
+    >
+      <h2 class="text-black font-semibold text-center text-2xl pb-4 md:pb-6">
+        Membres actuels et anciens membres
+      </h2>
+      <div class="md:flex md:flex-row md:flex-wrap md:justify-center md:gap-8">
+        <div
+          class="block rounded-lg mx-auto md:mx-0 mb-6 border-2 border-black bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-64 h-3/5 md:transition-transform md:ease-in-out md:duration-500 md:hover:scale-110"
+        >
+          <div
+            class="relative overflow-hidden bg-cover bg-no-repeat"
+            data-te-ripple-init
+            data-te-ripple-color="light"
+          >
+            <img class="rounded-t-lg" src="/src/assets/img/mark.png" alt="" />
+            <a href="/src/mark.html">
+              <div
+                class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+              ></div>
+            </a>
+          </div>
+          <div class="p-6">
+            <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800">
+              Mark Hoppus
+            </h5>
+            <p class="text-base text-neutral-600">Basse et chant</p>
+            <p class="text-base text-neutral-600">Membre actuel</p>
+            <p class="mb-4 text-base text-neutral-600">De 1992 à aujourd'hui</p>
+            <a href="/src/mark.html"><button
+              type="button"
+              class="inline-block rounded bg-black px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] md:hover:transition-transform md:hover:bg-white md:hover:text-black md:hover:border-2 md:hover:border-black"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+            >
+              Voir la page
+            </button></a>
+          </div>
+        </div>
+        <div
+          class="block rounded-lg mx-auto md:mx-0 mb-6 border-2 border-black bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-64 h-3/5 md:transition-transform md:ease-in-out md:duration-500 md:hover:scale-110"
+        >
+          <div
+            class="relative overflow-hidden bg-cover bg-no-repeat"
+            data-te-ripple-init
+            data-te-ripple-color="light"
+          >
+            <img class="rounded-t-lg" src="/src/assets/img/tom.png" alt="" />
+            <a href="/src/tom.html">
+              <div
+                class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+              ></div>
+            </a>
+          </div>
+          <div class="p-6">
+            <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800">
+              Tom Delonge
+            </h5>
+            <p class="text-base text-neutral-600">Guitare et chant</p>
+            <p class="text-base text-neutral-600">Membre actuel</p>
+            <p class="mb-4 text-base text-neutral-600">
+              1992 à 2015, depuis 2022
+            </p>
+            <a href="/src/tom.html"><button
+              type="button"
+              class="inline-block rounded bg-black px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] md:hover:transition-transform md:hover:bg-white md:hover:text-black md:hover:border-2 md:hover:border-black"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+            >
+              Voir la page
+            </button></a>
+          </div>
+        </div>
+        <div
+          class="block rounded-lg mx-auto md:mx-0 mb-8 border-2 border-black bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-64 h-3/5 md:transition-transform md:ease-in-out md:duration-500 md:hover:scale-110"
+        >
+          <div
+            class="relative overflow-hidden bg-cover bg-no-repeat"
+            data-te-ripple-init
+            data-te-ripple-color="light"
+          >
+            <img class="rounded-t-lg" src="/src/assets/img/travis.png" alt="" />
+            <a href="/src/travis.html">
+              <div
+                class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+              ></div>
+            </a>
+          </div>
+          <div class="p-6">
+            <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800">
+              Travis Barker
+            </h5>
+            <p class="text-base text-neutral-600">Batterie</p>
+            <p class="text-base text-neutral-600">Membre actuel</p>
+            <p class="mb-4 text-base text-neutral-600">De 1998 à aujourd'hui</p>
+            <a href="/src/travis.html"><button
+              type="button"
+              class="inline-block rounded bg-black px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] md:hover:transition-transform md:hover:bg-white md:hover:text-black md:hover:border-2 md:hover:border-black"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+            >
+              Voir la page
+            </button></a>
+          </div>
+        </div>
+        <div
+          class="block rounded-lg mx-auto md:mx-0 mb-6 border-2 border-black bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-64 h-3/5 md:transition-transform md:ease-in-out md:duration-500 md:hover:scale-110"
+        >
+          <div
+            class="relative overflow-hidden bg-cover bg-no-repeat"
+            data-te-ripple-init
+            data-te-ripple-color="light"
+          >
+            <img class="rounded-t-lg" src="/src/assets/img/scott.jpg" alt="" />
+            <a href="/src/scott.html">
+              <div
+                class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+              ></div>
+            </a>
+          </div>
+          <div class="p-6">
+            <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800">
+              Scott Raynor
+            </h5>
+            <p class="text-base text-neutral-600">Batterie</p>
+            <p class="text-base text-neutral-600">Ancien membre</p>
+            <p class="mb-4 text-base text-neutral-600">De 1992 à 1997</p>
+            <a href="/src/scott.html"><button
+              type="button"
+              class="inline-block rounded bg-black px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] md:hover:transition-transform md:hover:bg-white md:hover:text-black md:hover:border-2 md:hover:border-black"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+            >
+              Voir la page
+            </button></a>
+          </div>
+        </div>
+        <div
+          class="block rounded-lg mx-auto md:mx-0 mb-8 border-2 border-black bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] w-64 h-3/5 md:transition-transform md:ease-in-out md:duration-500 md:hover:scale-110"
+        >
+          <div
+            class="relative overflow-hidden bg-cover bg-no-repeat"
+            data-te-ripple-init
+            data-te-ripple-color="light"
+          >
+            <img class="rounded-t-lg" src="/src/assets/img/skiba.jpg" alt="" />
+            <a href="/src/skiba.html">
+              <div
+                class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+              ></div>
+            </a>
+          </div>
+          <div class="p-6">
+            <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800">
+              Matt Skiba
+            </h5>
+            <p class="text-base text-neutral-600">Guitare et chant</p>
+            <p class="text-base text-neutral-600">Ancien membre</p>
+            <p class="mb-4 text-base text-neutral-600">De 2015 à 2022</p>
+            <a href="/src/skiba.html"><button
+              type="button"
+              class="inline-block rounded bg-black px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] md:hover:transition-transform md:hover:bg-white md:hover:text-black md:hover:border-2 md:hover:border-black"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+            >
+              Voir la page
+            </button></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/src/nav.js"></script>
+  </body>
+</html>
