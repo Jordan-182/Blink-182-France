@@ -7,7 +7,7 @@ module.exports = {
         'poppins': ['poppins', 'sans-rerif'],
       },
       backgroundImage: {
-        'bgimg': "url('/src/assets/img/background.jpg')",
+        'bgimg': "url('./background.jpg')",
     },
   }
   },
